@@ -1,0 +1,4 @@
+---
+percona_toolkit_packages:
+  - percona-toolkit
+percona_toolkit_package_version: present

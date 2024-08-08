@@ -1,0 +1,7 @@
+---
+- name: Ensure percona toolkit is installed
+  ansible.builtin.apt:
+    name: "{{ percona_toolkit_packages }}"
+    state: "{{ percona_toolkit_package_version }}"
+  environment:
+    PERCONA_TELEMETRY_DISABLE: "1"
