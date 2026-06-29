@@ -20,3 +20,6 @@ galaxy_info:
     - toolkit
 dependencies:
   - role: boutetnico.percona_release
+    vars:
+      percona_release_repositories:
+        - pt
